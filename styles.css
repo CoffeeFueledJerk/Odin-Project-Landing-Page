@@ -9,7 +9,6 @@ body {
 .top-container {
     flex: 1;
     display: flexbox;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #1F2937;
     padding: 8px;
 
@@ -57,7 +56,6 @@ body {
 .text {
     width: 700px;
     color: #E5E7EB;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -73,7 +71,6 @@ body {
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     border-radius: 10px;
     height: auto;
     width: 100px;
@@ -85,4 +82,19 @@ body {
     max-width: 550px;
     max-height: auto;
     border: 5px solid rgb(240, 207, 146);
+}
+
+/* Info Div */
+.info-div {
+    flex: 1;
+    display: flex;
+}
+
+.info-header {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 0 auto;
+    padding: 50px;
 }
