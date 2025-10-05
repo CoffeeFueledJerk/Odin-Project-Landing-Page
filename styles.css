@@ -66,14 +66,14 @@ body {
 
 .btn {
     display: block;
+    font-weight: 750;
     background-color: #3882F6;
     color: white;
     padding: 10px;
     font-size: 20px;
-    text-align: center;
-    border-radius: 10px;
-    height: auto;
-    width: 100px;
+    border-radius: 15px;
+    width: 120px;
+    cursor: pointer;
 }
 
 .main-img {
@@ -110,11 +110,54 @@ body {
     gap: 75px;
     font-size: 20px;
     color: #585f6b;
+    flex-wrap: wrap;
 }
+
 
 .info-img {
     height: 250px;
-    width: 350px;
+    width: 380px;
     border: 5px solid #3882F6;
     border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.info-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #3882F6;
+}
+
+.img:hover {
+    transform: scale(1.02);
+}
+
+/* Quote div */
+.quote-div {
+    flex: 1;
+    display: flexbox;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    padding: 100px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.quote {
+    flex: 1;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-auth {
+    flex: 1;
+    display: flexbox;
+    justify-self: flex-end;
+    margin-right: 450px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #585f6b;
 }
